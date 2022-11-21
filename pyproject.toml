@@ -18,7 +18,7 @@ jsonrpcclient = "^4.0.1"
 zstandard = "^0.17.0"
 pytest = "^6.2.5"
 pytest-xprocess = "^0.18.1"
-pytest-asyncio = "^0.17.2"
+pytest-asyncio = "^0.20.2"
 more-itertools = "^8.11.0"
 pyheck = "^0.1.4"
 typer = { version = "0.4.1", optional = true }
