@@ -1078,7 +1078,7 @@ diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
 name = "pyserum"
-version = "0.5.0a0"
+version = "0.6.0a0"
 description = "Python client library for interacting with the Project Serum DEX."
 category = "dev"
 optional = false
@@ -1089,6 +1089,9 @@ construct = ">=2.10.56,<3.0.0"
 construct-typing = ">=0.5.1,<1.0.0"
 solana = ">=0.11.3,<1.0.0"
 
+[package.source]
+type = "url"
+url = "https://github.com/ennnas/pyserum/releases/download/v0.6.0a0/pyserum-0.6.0a0-py3-none-any.whl"
 [[package]]
 name = "pytest"
 version = "7.2.0"
@@ -1495,7 +1498,7 @@ cli = ["typer", "ipython", "genpy", "black", "autoflake"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "49e962f66856ea1e5aa0b715ca91db4c50a928b80e92539e7e17e8b34d2f5683"
+content-hash = "9ad8d0c7bdd55195b8454e81636de68af00af01993875cb4f6d50fb8bd25282b"
 
 [metadata.files]
 anchorpy-core = [
@@ -2081,10 +2084,7 @@ pyparsing = [
     {file = "pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},
     {file = "pyparsing-3.0.9.tar.gz", hash = "sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb"},
 ]
-pyserum = [
-    {file = "pyserum-0.5.0a0-py2-none-any.whl", hash = "sha256:f0282afbbb4b4de04eb783502b05f0dc405392c95ab844b28828160db0779a3a"},
-    {file = "pyserum-0.5.0a0.tar.gz", hash = "sha256:0e13a479c839a596095bcd87fd348b90f9020fa5b1d65bbad17e7daf8086fa9c"},
-]
+pyserum = []
 pytest = [
     {file = "pytest-7.2.0-py3-none-any.whl", hash = "sha256:892f933d339f068883b6fd5a459f03d85bfcb355e4981e146d2c7616c21fef71"},
     {file = "pytest-7.2.0.tar.gz", hash = "sha256:c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59"},

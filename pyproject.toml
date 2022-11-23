@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "anchorpy"
-version = "0.12.0"
+version = "0.12.1"
 description = "The Python Anchor client."
 readme = "README.md"
 repository = "https://github.com/kevinheavey/anchorpy"
@@ -45,7 +45,7 @@ isort = "^5.9.3"
 jinja2 = "3.0.3"
 mkdocs-material = "^8.1.7"
 bump2version = "^1.0.1"
-pyserum = "^0.5.0-alpha.0"
+pyserum = {url = "https://github.com/ennnas/pyserum/releases/download/v0.6.0a0/pyserum-0.6.0a0-py3-none-any.whl"}
 mkdocstrings = "^0.17.0"
 bandit = "1.7.2"
 
